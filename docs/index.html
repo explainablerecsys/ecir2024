@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177779800-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177779800-1');
+    </script>
+
+    <meta charset="utf-8">
+    <title>Explainable Recommender Systems with Knowledge Graphs and Language Models</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/venobox/venobox.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--==========================
+  Header
+============================-->
+<header id="header">
+    <div class="container">
+
+        <div id="logo" class="pull-left">
+            <h1><a href="#intro">ECIR</a></h1>
+        </div>
+
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li><a href="#abstract">Introduction</a></li>
+                <li><a href="#audience">Target Audience</a></li>
+                <li><a href="#structure">Outline</a></li>
+                <li><a href="#resources">Material</a></li>
+                <li><a href="#organizers">Presenters</a></li>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav><!-- #nav-menu-container -->
+    </div>
+</header><!-- #header -->
+
+<!--==========================
+  Intro Section
+============================-->
+<section id="intro">
+    <div class="intro-container wow fadeIn">
+        <h1 class="mb-4 pb-0">Tutorial <br/> Explainable Recommender Systems with Knowledge Graphs and Language Models</h1>
+        <p class="mb-4 pb-0">to be held as part of the <u><a href="https://www.ecir2024.org" target="_blank">The 46th European Conference on Information Retrieval  (ECIR 2024)</a></u></p>
+        <p class="mb-4 pb-0">March 24th, 2024 - Glasgow, Scotland </p>
+    </div>
+</section>
+
+<main id="main">
+
+    <!--==========================
+    Introduction Section
+    ============================-->
+    <section id="abstract" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Introduction</h2>
+                <p>
+                    In this tutorial, we cover the recent advances on explainable information retrieval through knowledge graphs (KGs), with recommender systems as the applicative scenario. 
+                    We will start by highlighting the fundamental principles that drive the growing reliance on KGs in today’s user modelling, including relevant academic sources and real-world examples. 
+                    Additionally, we will touch upon the recent techniques for explainable recommendation that combine language models and KGs. 
+                    For a better understanding, we will present a taxonomy encompassing data types, methodologies, and evaluation metrics from existing research, 
+                    designed for developing explainable recommender systems grounded in KGs. 
+                    These conceptual elements will be interleaved by short hands-on sessions, providing attendees with implementations based on open-source tools and public data sets. 
+                    Finally, we will show a comprehensive example of how the entire pipeline can be applied within an emerging domain, namely education. 
+                    The tutorial will wrap up with an analysis of emerging issues and prospective trajectories in this domain.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Target Audience Section
+    ============================-->
+
+    <section id="audience" class="wow fadeInUp section-with-bg" style="padding: 60px 0 30px 0;">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Target Audience</h2>
+                <p>
+                    This <strong>beginner/intermediate-level</strong> tutorial is accessible to researchers, technologists and practitioners. For people not
+                    familiar with recommender systems, this tutorial covers necessary background material. Moreover, <strong>no prior knowledge</strong> on explanations,
+                    knowledge graphs, and recommender systems with knowledge graphs is assumed. Basic knowledge of <strong>Python programming</strong> and of quite common
+                    libraries, such as Pandas and NumPy, is preferred. One aspect relevant from the outline is that the explainability perspective of our tutorial is an
+                    <strong>interdisciplinary topic</strong>, touching on several dimensions beyond algorithms and being of interest for people with different backgrounds.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Outline Section
+    ============================-->
+    <section id="structure" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Outline</h2>
+
+                <p>This tutorial will take place on <strong>March 24th, 2024</strong> in Glasgow, Scotland, as part of the The 46th European Conference on Information Retrieval (ECIR 2024)</p>
+
+                <div style="margin: 10px auto 30px auto; width: 50%;">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="time">Timing</th>
+                            <th scope="col">Content</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="time"><strong>5 mins</strong></th>
+                            <td><strong>Welcome and Presenters' Introduction</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"> 20 mins</th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Introduction to explainable recommendation</strong> </div>
+                                <ul>
+                                    <li>We will first provide a historical overview of the explainable recommendation research, tracing its origins and evolution</li>
+                                    <li>We will explore foundational concepts behind explainable recommendations. </li>
+                                    <li> We will discuss explanations based on the timing of their generation (intrinsic vs post-hoc), whether they are tied to specific models or can be applied universally, and the various sources that can be used to construct them. </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time">25 mins</th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Hands on interaction data with KGs</strong></div>
+                                <ul>
+                                    <li>We first present three data sets representing the movie (MovieLens-1M (ML1M)), music (LastFM-1B (LASTFM)) and e-commerce (Amazon-Cellphones) domains. They are public and vary in domain, extensiveness, and sparsity.</li>
+                                    <li>We load and present existing knowledge graphs for the three considered data sets and show how such information should be pre-processed to enable explainability in recommendation models. </li>
+                                    <li>We will present objectives influenced by explanations (utility, coverage, diversity, novelty, visibility, exposure) and provide related work. Explanations also have an impact on several perspectives such as the economy, law, society, trust, technology, and psychology.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"> 20 mins</th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Explainable RS with path reasoning methods</strong></div>
+                                <ul>
+                                    <li>We will provide an overview of the recommendation pipeline, highlighting stages necessary for explainability's integration. </li>
+                                    <li>We introduce the primary methodological families in knowledge-grounded recommendations, such as embedding-based and path-based approaches, along with representative methods from each category.</li>
+                                    <li>We pivot to a granular exploration of path-based reasoning, spotlighting methods like PGPR and CAFE.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>25 mins</strong></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Path Reasoning: PGPR & CAFE</strong>
+                                    <ul>
+                                        <li>We dive into the practical aspects of implementing PGPR and CAFE</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>20 mins</strong></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Language Models for Explainable RS</strong>
+                                    <ul>
+                                        <li>We provide a overview on the paradigms of language modeling (i.e., causal, masked, and text-to-text) and their applications, focusing on recommendation.</li>
+                                        <li>We explore innovative integrations of KGs and language models with PLM and PEARLM, showcasing their unique ability in path reconstruction for explainable recommendations.</li>
+                                    </ul>
+                                </div>
+                            </td>
+                            
+                            <!--<td><strong>Coffee Break</strong></td>-->
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>25 mins</strong></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Language Models: PLM & PEARLM</strong>
+                                    <ul>
+                                        <li>We initiate with an insight into formulating training data by sampling paths from knowledge graphs.</li>
+                                        <li>We will leverage pretrained models to generate top-k recommendations alongside their explanations.</li>
+                                        <li>We tackle the issue of hallucination where language models generate explanations not aligned with the KG.</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>25 mins</strong></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Entire Pipeline in Action for Educational Recommendation</strong>
+                                    <ul>
+                                        <li>We will recap the entire recommender system workflow, addressing challenges like complex KG creation, model training and evaluation in the context of education.</li>
+                                        <li>We will provide an immersive hands-on experience tailored to overcome the sector-specific hurdles and ensure the delivery of pertinent educational resources.</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>20 mins</strong></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Challenges, Open Issues and Conclusions</strong></div>
+                            </td>
+                        </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Material Section
+    ============================-->
+    <section id="resources" class="wow fadeInUp section-with-bg">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Material</h2>
+                <ul>
+                    <li>TBA</li>
+                    <!--<li><a href="https://vimeo.com/751046329?embedded=true&source=vimeo_logo&owner=184110944">Video Recording</a></li>
+                    <li><a href="https://www.slideshare.net/GiacomoBalloccu/hands-on-explainable-recommender-systems-with-knowledge-graphs-recsys22">Slides</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1FBnh8SJvdTgmJoUoMvrzg7BppiHO8oIc?usp=sharing">Drive Folder</a></li>
+                    <li><a href="https://github.com/explainablerecsys/recsys2022">Github</a></li>
+                    <li><a href="https://colab.research.google.com/drive/199vMjGDzH4UyfznKm-mZomnI645RaiLE?usp=sharing">Notebook 1: Data, KG and Preprocessing</a></li>
+                    <li><a href="https://colab.research.google.com/drive/1YH9sXAybc0MYmuT3542QwuLUgxXUgF0G?usp=sharing">Notebook 2: PGPR</a></li>
+                    <li><a href="https://colab.research.google.com/drive/1ZctoVFA4qyFSv5KYGzX7XqnDMwaNBytb?usp=sharing">Notebook 3: CAFE</a></li>
+                    <li><a href="https://colab.research.google.com/drive/1B-56YvvKFOx573C8QOvN65q1PufZhcLd?usp=sharing">Notebook 4: Evaluation and Explanation Generation</a></li>-->
+                </ul>
+             <!--
+ <p>If the tutorial slides are useful for your research, we would appreciate an acknowledgment by citing our summary in the RecSys '22 proceedings:</p>
+<p>Balloccu, G., Boratto, L., Fenu, G., & Marras, M. (2022, September). Hands on Explainable Recommender Systems with Knowledge Graphs. In Proceedings of the 16th ACM Conference on Recommender Systems (pp. 710-713).</p>
+If the tutorial notebooks are useful for your research, we would appreciate an acknowledgment by citing our SIGIR '22 paper and/or our Knowledge-Based Systems paper:
+
+<p>Balloccu, G., Boratto, L., Fenu, G., & Marras, M. (2022). Post Processing Recommender Systems with Knowledge Graphs for Recency, Popularity, and Diversity of Explanations. In Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (pp. 646–656).</p>
+
+<p>Balloccu, G., Boratto, L., Fenu, G., & Marras, M. (2023). Reinforcement recommendation reasoning through knowledge graphs for explanation path quality. Knowledge-Based Systems, 260, 110098.</p>
+ 
+             -->   </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Presenters Section
+    ============================-->
+    <section id="organizers" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Presenters</h2>
+
+                <p style="text-align: center;"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=SKF5qv8AAAAJ&citpid=2" class="img-rounded" alt="Giacomo Balloccu" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://scholar.google.com/citations?user=SKF5qv8AAAAJ" target="_blank">Giacomo Balloccu</a> </br>University of Cagliari (Italy)</strong></p>
+                <br/><br/>
+                <p style="text-align: center;"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1unjC10AAAAJ&citpid=8" class="img-rounded" alt="Ludovico Boratto" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://scholar.google.com/citations?user=1unjC10AAAAJ" target="_blank">Ludovico Boratto</a> </br>University of Cagliari (Italy)</strong></p>
+                <br/><br/>
+                <p style="text-align: center;"><img src="https://unica.it/unica/protected/31168/0/def/ref/SHD30371/" class="img-rounded" alt="Gianni Fenu" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://scholar.google.com/citations?user=riCjuhkAAAAJ" target="_blank">Gianni Fenu</a> </br>University of Cagliari (Italy)</strong></p>
+                <br/><br/>
+                <p style="text-align: center;"><img src="https://web.unica.it/unica/protected/415750/0/def/ref/SHD415297/" class="img-rounded" alt="Francesca Maridina Malloci" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://scholar.google.com/citations?user=H56pYLcAAAAJ&hl=it" target="_blank">Francesca Maridina Malloci</a> </br>University of Cagliari (Italy)</strong></p>
+
+                <p style="text-align: center;"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=JZhqKBIAAAAJ&citpid=14" class="img-rounded" alt="Mirko Marras" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://scholar.google.com/citations?user=JZhqKBIAAAAJ" target="_blank">Mirko Marras</a> </br>University of Cagliari (Italy)</strong></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--==========================
+    Registration Section
+    ============================-->
+    <section id="registration" class="wow fadeInUp section-with-bg">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Registration</h2>
+                <p>Registration to the tutorial will be managed by the ECIR 2024 main conference organization. Registration is yet to open.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Contacts Section
+    ============================-->
+    <section id="contacts" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Contacts</h2>
+                <p>
+                    Please, reaching out to us at <strong>giacomo.balloccu@unica.it</strong>, <strong>ludovico.boratto@acm.org</strong>,
+                    <strong>fenu@unica.it</strong>,<strong>francescam.malloci@unica.it</strong> ,and <strong>mirko.marras@acm.org</strong> for any request you might have.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+</main>
+
+<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- JavaScript Libraries -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/superfish/hoverIntent.js"></script>
+<script src="lib/superfish/superfish.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/venobox/venobox.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Contact Form JavaScript File -->
+<script src="contactform/contactform.js"></script>
+
+<!-- Template Main Javascript File -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
