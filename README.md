@@ -27,7 +27,37 @@ If the tutorial slides are useful for your research, we would appreciate an ackn
 
 ```
 
+@inproceedings{balloccu2022post,
+  title={Post processing recommender systems with knowledge graphs for recency, popularity, and diversity of explanations},
+  author={Balloccu, Giacomo and Boratto, Ludovico and Fenu, Gianni and Marras, Mirko},
+  booktitle={Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={646--656},
+  year={2022}
+}
 
+@article{balloccu2023reinforcement,
+  title={Reinforcement recommendation reasoning through knowledge graphs for explanation path quality},
+  author={Balloccu, Giacomo and Boratto, Ludovico and Fenu, Gianni and Marras, Mirko},
+  journal={Knowledge-Based Systems},
+  volume={260},
+  pages={110098},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{balloccu2023faithful,
+  title={Faithful Path Language Modelling for Explainable Recommendation over Knowledge Graph},
+  author={Balloccu, Giacomo and Boratto, Ludovico and Cancedda, Christian and Fenu, Gianni and Marras, Mirko},
+  journal={arXiv preprint arXiv:2310.16452},
+  year={2023}
+}
+
+@article{balloccu2023knowledge,
+  title={Knowledge is Power, Understanding is Impact: Utility and Beyond Goals, Explanation Quality, and Fairness in Path Reasoning Recommendation},
+  author={Balloccu, Giacomo and Boratto, Ludovico and Cancedda, Christian and Fenu, Gianni and Marras, Mirko},
+  journal={arXiv preprint arXiv:2301.05944},
+  year={2023}
+}
 ```
 
 
