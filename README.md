@@ -16,10 +16,10 @@ Hands on Tutorial on Explainable Recommender Systems with Knowledge Graphs and L
 
 ## Material
 - [Website](https://explainablerecsys.github.io/ecir2024/)
+- [Drive Folder](https://drive.google.com/drive/folders/18pEKcUSWt0uFGqDukk6pcP0RASxuexYr?usp=drive_link)
+- [Notebook](https://colab.research.google.com/drive/1hQ2uVky_00iF5yiZrsRRQnzJ6v-qaTN7?usp=drive_link)
 - [Video Recording]()
 - [Slides]()
-- [Drive Folder]()
-- [Notebook]()
 
 
 ## Citation 
