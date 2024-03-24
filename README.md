@@ -1,6 +1,6 @@
 # Tutorial - Explainable Recommender Systems with Knowledge Graphs and Language Models
 
-This tutorial is derived from our [PEARLM Library][https://github.com/Chris1nexus/pearlm]
+This tutorial is derived from our [PEARLM Library](https://github.com/Chris1nexus/pearlm)
 
 [![GitHub version](https://badge.fury.io/gh/boennemann%2Fbadges.svg)](http://badge.fury.io/gh/boennemann%2Fbadges)
 [![Open Source Love](https://badges.frapsoft.com/os/gpl/gpl.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
