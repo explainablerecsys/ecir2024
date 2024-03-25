@@ -1,0 +1,130 @@
+{
+    "ml1m": {
+        "user": {
+            "watched": "product"
+        },
+        "actor": {
+            "starred_by_actor": "product"
+        },
+        "director": {
+            "directed_by_director": "product"
+        },
+        "product": {
+            "watched": "user",
+            "produced_by_prodcompany": "prodcompany",
+            "produced_by_producer": "producer",
+            "edited_by_editor": "editor",
+            "wrote_by_writter": "writter",
+            "cinematography_by_cinematographer": "cinematographer",
+            "belong_to_category": "category",
+            "directed_by_director": "director",
+            "starred_by_actor": "actor",
+            "composed_by_composer": "composer",
+            "produced_in_country": "country",
+            "related_to_wikipage": "wikipage"
+        },
+        "prodcompany": {
+            "produced_by_prodcompany": "product"
+        },
+        "composer": {
+            "composed_by_composer": "product"
+        },
+        "producer": {
+            "produced_by_producer": "product"
+        },
+        "writter": {
+            "wrote_by_writter": "product"
+        },
+        "editor": {
+            "edited_by_editor": "product"
+        },
+        "category": {
+            "belong_to_category": "product"
+        },
+        "cinematographer": {
+            "cinematography_by_cinematographer": "product"
+        },
+        "country": {
+            "produced_in_country": "product"
+        },
+        "wikipage": {
+            "related_to_wikipage": "product"
+        }
+    },
+    "lfm1m": {
+        "user": {
+            "listened": "product"
+        },
+        "artist": {
+            "featured_by_artist": "product"
+        },
+        "engineer": {
+            "mixed_by_engineer": "product"
+        },
+        "product": {
+            "listened": "user",
+            "produced_by_producer": "producer",
+            "featured_by_artist": "artist",
+            "mixed_by_engineer": "engineer",
+            "belong_to_genre": "genre"
+        },
+        "producer": {
+            "produced_by_producer": "product"
+        },
+        "genre": {
+            "belong_to_genre": "product"
+        }
+    },
+    "cellphones": {
+        "user": {
+            "purchase": "product"
+        },
+        "product": {
+            "purchase": "user",
+            "produced_by_prodcompany": "brand",
+            "belong_to_category": "category",
+            "also_bought_related_product": "rproduct",
+            "also_viewed_related_product": "rproduct",
+            "also_bought_product": "product",
+            "also_viewed_product": "product"
+        },
+        "brand": {
+            "produced_by_prodcompany": "product"
+        },
+        "category": {
+            "belong_to_category": "product"
+        },
+        "rproduct": {
+            "also_bought_related_product": "product",
+            "also_viewed_related_product": "product"
+        }
+    },
+    "coco": {
+        "user": {
+            "interacted": "product"
+        },
+        "concept": {
+            "related_to_concept": "product"
+        },
+        "level": {
+            "taught_in_level": "product"
+        },
+        "product": {
+            "interacted": "user",
+            "related_to_concept": "concept",
+            "taught_in_level": "level",
+            "taught_in_language": "language",
+            "has_target_audience": "audience",
+            "belong_to_category": "category"
+        },
+        "language": {
+            "taught_in_language": "product"
+        },
+        "category": {
+            "belong_to_category": "product"
+        },
+        "audience": {
+            "has_target_audience": "product"
+        }
+    }
+}

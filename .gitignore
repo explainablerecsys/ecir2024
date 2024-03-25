@@ -5,3 +5,4 @@ env/*
 data/outputs/*
 notebooks/.ipynb_checkpoints/*
 
+/Hands-On/data/*
